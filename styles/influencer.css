@@ -17,6 +17,7 @@
     background: #E02C6D;
 }
 
+
 /* header styles */
 header{
     background: #FFF;
@@ -73,6 +74,7 @@ header .influencer-container{
 .inf-image img{
     width: 100%;
     position: relative;
+    object-fit: cover;
 }
 
 /* sponsors styles */
@@ -86,6 +88,7 @@ header .influencer-container{
 }
 .sponsor-images .img{
     width: 100%;
+    object-fit: cover;
 }
 
 /* collection styles */
@@ -123,6 +126,7 @@ header .influencer-container{
 }
 .items-container .card img{
     width: 100%;
+    object-fit: cover;
 }
 .items-container .card .card-title{
     color:#18191F;
@@ -154,4 +158,37 @@ header .influencer-container{
     font-family: Inter;
     font-size: 1rem;
     font-weight: 700;
+}
+
+/* featured products styles */
+.featured-products{
+    display: flex;
+    margin: 100px 100px 50px;
+    justify-content: space-between;
+    gap: 100px;
+}
+.feature-texts-container .inf-title{
+    color: #3A3A3A;
+    font-size: 2rem;
+    font-weight: 700;
+} 
+.feature-texts-container .feature-desc{
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.feature-img-container .img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.btn-join{
+    padding: 10px 24px;
+    align-items: flex-start;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
 }

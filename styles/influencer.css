@@ -192,3 +192,28 @@ header .influencer-container{
     font-weight: 700;
     border: none;
 }
+
+/* footer section styles */
+footer{
+    background: #0A0826;
+    text-align: center;
+}
+.footer-title{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.footer-desc{
+    color:#D9DBE1;
+    font-family: Manrope;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+}
+.social-links{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}

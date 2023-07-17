@@ -74,3 +74,16 @@ header .influencer-container{
     width: 100%;
     position: relative;
 }
+
+/* sponsors styles */
+.sponsors{
+    margin: 100px 160px;
+}
+.sponsor-images{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+.sponsor-images .img{
+    width: 100%;
+}

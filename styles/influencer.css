@@ -39,7 +39,7 @@ nav .nav-title{
 nav ul{
     display: flex;
 }
-nav li{
+nav li {
     list-style: none;
     color: #3A3A3A;
     font-size: 1rem;
@@ -52,14 +52,14 @@ nav li a{
 
 }
 
-header .influencer-container{
+.influencer-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 140px;
 }
 .influencer-container .inf-content{
-    max-width: 40%;
+    max-width: 50%;
 }
 .inf-content .inf-title{
     color: #3A3A3A;
@@ -79,16 +79,13 @@ header .influencer-container{
 
 /* sponsors styles */
 .sponsors{
-    margin: 100px 160px;
+    padding: 10px;
+    margin: 0 50px;
 }
 .sponsor-images{
     display: flex;
-    justify-content: space-between;
-    /* gap: 10px; */
-}
-.sponsor-images .img{
-    width: 100%;
-    object-fit: cover;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 /* collection styles */
@@ -163,9 +160,12 @@ header .influencer-container{
 /* featured products styles */
 .featured-products{
     display: flex;
-    margin: 100px 100px 50px;
+    margin: 50px auto 50px;
     justify-content: space-between;
     gap: 100px;
+}
+.feature-texts-container{
+    margin: 0 80px;
 }
 .feature-texts-container .inf-title{
     color: #3A3A3A;
@@ -178,9 +178,10 @@ header .influencer-container{
     font-size: 1rem;
     font-weight: 700;
 }
-.feature-img-container .img{
+.feature-img-container img{
     width: 100%;
-    height: auto;
+    margin-left: 80px;
+    /* height: auto; */
     object-fit: cover;
 }
 .btn-join{
